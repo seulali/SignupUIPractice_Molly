@@ -77,11 +77,12 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="여성"/>
+            android:text="여성" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개 안 함"/>
 
     </RadioGroup>
@@ -90,6 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
+        android:visibility="invisible"
         android:text="이용약관에 동의합니다"/>
 
     <Button
