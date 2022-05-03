@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="bottom|center"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
         android:src="@drawable/buzzvil_logo"
         android:scaleType="centerCrop"/>
 
